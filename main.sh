@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Serving files on port 8000"
-busybox httpd -f -p 8000
+python3 -m http.server 8000
